@@ -19,53 +19,53 @@ const SpeakersList = [
     image: ReinNobel,
   },
   {
-    name: "Prof. A.Krishnamoorthy",
-    desc: "Director, Center for Research in Mathematics, CMS College Kottayam, Kerala, India",
+    name: "Prof.A.Krishnamoorthy",
+    desc: "Director, Center for Research in Mathematics,\n CMS College Kottayam, Kerala, India",
     image: Krishnamoorthy,
   },
   {
-    name: "Prof. S.Dharmaraja",
+    name: "Prof.S.Dharmaraja",
     desc: "IIT Delhi, India",
     image: Dharmaraja,
   },
   {
-    name: "Prof. Dr.Satyananda Panda",
+    name: "Prof. Satyananda Panda",
     desc: "NIT Calicut, India",
     image: Satyananda,
   },
   {
     name: "Prof. Hugo Leiva",
-    desc: "Professor, Department of Mathematics, Yachay Tech-University of Andes, Venezuela",
+    desc: "Yachay Tech, University of Andes, Venezuela",
     image: HugoLeiva,
   },
   {
     name: "Dr. Sivaguru S. Sritharan",
-    desc: "Chief Technologist, Go. AI Inc., Dayton, Ohio, USA",
+    desc: "Chief Technologist, Go.AI Inc., Dayton, Ohio, USA",
     image: SivaguruSritharan,
   },
   {
-    name: "Dr. rer. nat. Jitendra Kumar",
-    desc: "Professor, Department of Mathematics, Indian Institute of Technology Kharagpur ,Kharagpur - 721302, India",
+    name: "Prof. rer. nat. Jitendra Kumar",
+    desc: "IIT Kharagpur, India",
     image: Jitendra,
   },
   {
-    name: "Dr.A. Swaminathan",
-    desc: "Professor, Department of Mathematics Associate Dean Academic Affairs (IT Systems and Admissions)Indian Institute of Technology Roorkee Roorkee 247 667, India",
+    name: "Prof.A.Swaminathan",
+    desc: "IIT Roorkee, India",
     image: Swaminathan,
   },
   {
-    name: "Balu, Radhakrishnan",
-    desc: "Adjunct Professor Department of Mathematics University of Maryland,Research scientist, US Army research Lab,Adelphi ,MD",
+    name: "Prof. Balu Radhakrishnan",
+    desc: "Research scientist, US Army research Lab, Adelphi, MD, USA",
     image: Radhakrishnan,
   },
   {
-    name: "Viswanathan (ARUN) Arunachalam PhD",
-    desc: "Statistics,Faculty Member , National University of Colombia",
+    name: "Prof. Viswanathan Arunachalam",
+    desc: "National University of Colombia, Colombia",
     image: Arun,
   },
   {
-    name: "Vidyottama Jain",
-    desc: "Assistant Professor Department of Mathematics Central University of Rajasthan Post-Doctoral Fellow BISC-University of California Berkeley Ph.D.-Indian Institute of Technology Delhi.",
+    name: "Prof. Vidyottama Jain",
+    desc: "Central University of Rajasthan, India",
     image: Vidyotama,
   },
 ];
@@ -78,9 +78,9 @@ const Section7 = () => {
     >
       <div className="flex flex-col lg:flex-row items-start w-full">
         <Header theme="dark" subtext="this year" text="speakers" />
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 text-black w-screen pt-24 md:pt-48 -mt-8 items-start justify-start">
+        <div className="grid grid-cols-1 px-6 space-y-4 md:space-y-0 md:px-0 md:grid-cols-3 lg:grid-cols-3 gap-8 text-black w-screen pt-24 md:pt-48 -mt-8 items-start justify-start">
           {SpeakersList.map((speaker, index) => (
-            <div className="flex flex-col items-center justify-center lg:justify-start w-screen lg:w-fit space-y-1">
+            <div className="flex flex-col items-start lg:justify-start w-screen lg:w-fit space-y-1">
               <div
                 className="aspect-square w-56 filter grayscale"
                 style={{
@@ -90,7 +90,7 @@ const Section7 = () => {
                 }}
               ></div>
               <p className="font-semibold font-poppins">{speaker.name}</p>
-              <p className="text-sm text-center font-poppins text-green w-[30ch] lg:w-auto">
+              <p className="text-sm text-start font-poppins text-green w-[30ch] lg:w-auto">
                 {speaker.desc}
               </p>
             </div>

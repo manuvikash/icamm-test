@@ -62,12 +62,13 @@ const Navbar = () => {
         <div className="flex-1"></div>
         <div className="flex items-center justify-center">
           <div className="hidden md:flex items-center space-x-3 text-lg pr-10">
-            <NavItem name="Last Dates" link="#section2" />
+            <NavItem name="Important Dates" link="#section2" />
             <NavItem name="About" link="#section3" />
             <NavItem name="Theme" link="#section5" />
             <NavItem name="Speakers" link="#section7" />
             <NavItem name="Submission" link="#section8" />
             <NavItem name="Registration" link="#section9" />
+            {/* <NavItem name="Journal Publications" link="#section13" /> */}
             <NavItem
               name="Brochure"
               link="https://drive.google.com/file/d/1A5VMjIReOJII-XctR6UVAGESS9v_q2oi/view?usp=sharing"

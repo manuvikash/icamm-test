@@ -2,7 +2,7 @@ import React from "react";
 import PSGCollegeLanding from "../assets/psg_landing.jpg";
 import PSGLogo from "../assets/PSG_logo.png";
 import ShapeDivider from "./ShapeDivider";
-import { FiFileText } from "react-icons/fi";
+import { FiCalendar } from "react-icons/fi";
 
 const Section1 = () => {
   return (
@@ -36,15 +36,10 @@ const Section1 = () => {
         </div>
       </div>
       <br />
-      <button className="text-xl font-ubuntu flex space-x-2 items-center mt-8 bg-white text-dark-green px-4 py-2 rounded-lg shadow-lg w-fit hover:scale-[99%] transition-all ease-in-out">
-        <FiFileText size={24} />
-        <a
-          href="https://drive.google.com/file/d/1A5VMjIReOJII-XctR6UVAGESS9v_q2oi/view?usp=sharing"
-          className=""
-        >
-          Download Brochure
-        </a>
-      </button>
+      <p className="text-xl font-ubuntu flex space-x-2 items-center mt-8 bg-white text-dark-green px-4 py-2 rounded-lg shadow-lg w-fit">
+        <FiCalendar size={24} />
+        <p>4th - 6th January 2023</p>
+      </p>
     </section>
   );
 };
