@@ -35,24 +35,26 @@ const Section1 = () => {
           </p>
         </div>
       </div>
-      <Marquee
-        gradient={false}
-        pauseOnHover={true}
-        className="md:visible invisible pt-20"
-        speed={50}
-      >
-        <div className=" ml-96 mr-2 font-poppins bg-slate rounded-md  text-green text-base flex text-center justify-center px-4 py-2 lg:text-lg">
-          Journal Publications:
-        </div>
-        <div className="mx-2 font-poppins bg-slate rounded-md  text-white text-base flex text-center justify-center px-4 py-2 lg:text-lg">
-          Advances and Applications in Mathematical Sciences, Mili Publications,
-          ISSN: 0974-6803
-        </div>
-        <div className="mx-2 font-poppins bg-slate rounded-md  text-white text-base flex text-center justify-center px-4 py-2 lg:text-lg">
-          Communications Faculty of Sciences University of Ankara Series A1:
-          Mathematics and Statistics, ISSN: 1303-5991
-        </div>
-      </Marquee>
+      <span>
+        <Marquee
+          gradient={false}
+          pauseOnHover={true}
+          className="md:visible invisible pt-20"
+          speed={50}
+        >
+          <div className=" ml-96 mr-2 font-poppins bg-slate rounded-md  text-green text-base flex text-center justify-center px-4 py-2 lg:text-lg">
+            Journal Publications:
+          </div>
+          <div className="mx-2 font-poppins bg-slate rounded-md  text-white text-base flex text-center justify-center px-4 py-2 lg:text-lg">
+            Advances and Applications in Mathematical Sciences, Mili
+            Publications, ISSN: 0974-6803
+          </div>
+          <div className="mx-2 font-poppins bg-slate rounded-md  text-white text-base flex text-center justify-center px-4 py-2 lg:text-lg">
+            Communications Faculty of Sciences University of Ankara Series A1:
+            Mathematics and Statistics, ISSN: 1303-5991
+          </div>
+        </Marquee>
+      </span>
       <br />
       <p className="text-xl font-ubuntu flex space-x-2 items-center mt-8 bg-white text-dark-green px-4 py-2 rounded-lg shadow-lg w-fit">
         <FiCalendar size={24} />
