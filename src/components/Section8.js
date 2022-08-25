@@ -47,7 +47,7 @@ const Section8 = () => {
               target="_blank"
               className=""
             >
-              Author Tamplate
+              Template
             </a>
           </button>
         </div>

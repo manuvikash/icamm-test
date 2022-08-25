@@ -56,7 +56,7 @@ const Section1 = () => {
         </Marquee>
       </span>
       <br />
-      <p className="text-xl font-ubuntu flex space-x-2 items-center mt-8 bg-white text-dark-green px-4 py-2 rounded-lg shadow-lg w-fit">
+      <p className="text-xl font-ubuntu flex space-x-2 items-center mt-8 bg-white text-dark-green px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit">
         <FiCalendar size={24} />
         <p>4th - 6th January 2023</p>
       </p>

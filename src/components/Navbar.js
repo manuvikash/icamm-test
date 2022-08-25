@@ -29,7 +29,7 @@ const Navbar = () => {
   const [color, setColor] = useState(false);
 
   const changeColor = () => {
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY >= 150) {
       setColor(true);
     } else {
@@ -71,7 +71,7 @@ const Navbar = () => {
             {/* <NavItem name="Journal Publications" link="#section13" /> */}
             <NavItem
               name="Brochure"
-              link="https://drive.google.com/file/d/1A5VMjIReOJII-XctR6UVAGESS9v_q2oi/view?usp=sharing"
+              link="https://drive.google.com/file/d/1r0StbZpnW8L0JGu1sYn1yAASO69lSrny/view?usp=sharing"
             />
           </div>
         </div>
