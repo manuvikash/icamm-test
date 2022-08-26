@@ -10,11 +10,11 @@ const Section10 = () => {
         <Header subtext="organizing" text="commitee" />
         <div className="flex-1 "></div>
       </div>
-      <div className="my-6 pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-x-8 gap-y-6">
+      <div className="my-4 pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-x-8 gap-y-8">
         <div className="w-full">
           <p className="text-green text-xl font-ubuntu">Chief Patron</p>
-          <p className="text-slate mt-4 font-bold text-2xl font-poppins">
-            Thiru. L. Gopalakrishnan
+          <p className="text-slate mt-4 font-bold text-2xl whitespace-nowrap font-poppins ">
+            Thiru. L.&nbsp;Gopalakrishnan
           </p>
           <p className="text-dark-green mt-1 font-poppins w-full">
             Managing trustee
@@ -41,7 +41,7 @@ const Section10 = () => {
           <p className="text-dark-green mt-1 font-poppins w-full">
             Professor & Head
             <br />
-            Department of Mathematics, <br/> PSG College of Technology
+            Department of Mathematics, <br /> PSG College of Technology
           </p>
         </div>
         <div className="w-full">
@@ -52,7 +52,7 @@ const Section10 = () => {
           <p className="text-dark-green mt-1 font-poppins w-full">
             Professor
             <br />
-            Department of Mathematics, <br/> PSG College of Technology
+            Department of Mathematics, <br /> PSG College of Technology
           </p>
         </div>
       </div>
