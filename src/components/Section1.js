@@ -53,6 +53,10 @@ const Section1 = () => {
             Communications Faculty of Sciences University of Ankara Series A1:
             Mathematics and Statistics, ISSN: 1303-5991
           </div>
+          <div className="mx-2 font-poppins bg-slate rounded-md  text-white text-base flex text-center justify-center px-4 py-2 lg:text-lg">
+            Bulletin of the Calcutta Mathematical Society, CMS Publications,
+            ISSN: 0008-0659
+          </div>
         </Marquee>
       </span>
       <br />

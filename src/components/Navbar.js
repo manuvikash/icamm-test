@@ -71,7 +71,7 @@ const Navbar = () => {
             {/* <NavItem name="Journal Publications" link="#section13" /> */}
             <NavItem
               name="Brochure"
-              link="https://drive.google.com/file/d/1r0StbZpnW8L0JGu1sYn1yAASO69lSrny/view?usp=sharing"
+              link="https://drive.google.com/file/d/1YQ2xeyQ-0NSlA_iuuae4GJc60F2Bognh/view?usp=sharing"
             />
           </div>
         </div>

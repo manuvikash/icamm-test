@@ -28,6 +28,10 @@ const Section13 = () => {
                 2. Communications Faculty of Sciences University of Ankara
                 Series A1: Mathematics and Statistics, ISSN: 1303-5991
               </li>
+              <li>
+                3. Bulletin of the Calcutta Mathematical Society, CMS
+                Publications, ISSN: 0008-0659
+              </li>
             </ul>
           </div>
         </div>
