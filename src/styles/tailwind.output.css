@@ -515,6 +515,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -573,6 +583,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 
 .flex {
@@ -1134,6 +1152,31 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-green:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(73 160 120 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 36 33 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-light-green:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 197 161 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-slate:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 36 33 / var(--tw-text-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:border-white {

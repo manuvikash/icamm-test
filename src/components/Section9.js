@@ -25,8 +25,8 @@ const Section9 = () => {
           <p className="">
             It is mandatory that atleast one author of each accepted paper
             register and present the paper in the technical sessions. All
-            accepted papers will be considered for presentation and publication
-            only after the payment of registration fee.
+            accepted papers will be considered for presentation only after the
+            payment of registration fee.
           </p>
         </div>
       </div>

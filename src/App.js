@@ -40,18 +40,18 @@ const App = () => {
       <Section8 />
       {/* Important Dates */}
       <Section2 />
-      <div className="mt-20 translate-y-0 hidden lg:block">
+      <div id="reg" className="mt-20 translate-y-0 hidden lg:block">
         <ShapeDivider theme="green" />
       </div>
+      {/* Register Button */}
+      <Section12 />
       {/*About the Registration */}
       <Section9 />
       {/* Organizing Committee */}
       <Section10 />
-      {/* Register Button */}
-      <Section12 />
       {/* Venue and Contact */}
-      <Section11/>
-      <Footer/>
+      <Section11 />
+      <Footer />
     </main>
   );
 };

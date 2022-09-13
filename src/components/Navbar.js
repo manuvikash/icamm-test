@@ -67,7 +67,7 @@ const Navbar = () => {
             <NavItem name="Theme" link="#section5" />
             <NavItem name="Speakers" link="#section7" />
             <NavItem name="Submission" link="#section8" />
-            <NavItem name="Registration" link="#section9" />
+            <NavItem name="Registration" link="#reg" />
             {/* <NavItem name="Journal Publications" link="#section13" /> */}
             <NavItem
               name="Brochure"
