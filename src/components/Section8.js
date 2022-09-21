@@ -22,8 +22,7 @@ const Section8 = () => {
             in the conference proceedings (CD format only).
           </p>
           <div className="mt-12">
-            For all communications and paper submissions use the e-mail address
-            :-
+            For all communications use the e-mail address :
           </div>
           <div className="text-xl font-ubuntu flex space-x-2 items-center mt-2 px-4">
             <FiMail size={24} />
