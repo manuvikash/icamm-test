@@ -44,7 +44,7 @@ const App = () => {
         <ShapeDivider theme="green" />
       </div>
       {/* Register Button */}
-      {/* <Section12 /> */}
+      <Section12 />
       {/*About the Registration */}
       <Section9 />
       {/* Organizing Committee */}
