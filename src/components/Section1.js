@@ -8,7 +8,7 @@ import { AiOutlineForm } from "react-icons/ai";
 const Section1 = () => {
   return (
     <section
-      className="w-screen h-fit lg:h-[calc(100vh-2.5rem-5px)] px-6 py-36 md:py-24 lg:px-[calc(100vw/12)] space-y-4 md:space-y-2 lg:flex lg:flex-col lg:"
+      className="w-screen h-fit lg:h-[calc(100vh-2.5rem)] px-6 py-36 md:py-24 lg:px-[calc(100vw/12)] space-y-4 md:space-y-2 lg:flex lg:flex-col lg:"
       style={{
         background: `linear-gradient(to right, rgba(33,104,105,0.7) 10%, rgba(73,160,120,0.7) 90%), url(${PSGCollegeLanding})`,
         backgroundSize: "cover",
@@ -25,6 +25,10 @@ const Section1 = () => {
         on Applied Mathematical Models
       </h2>
       <div className="flex-1 min-h-[2rem]"></div>
+      <div className="flex-1 min-h-[2rem]"></div>
+      <div className="flex-1 min-h-[2rem]"></div>
+      <div className="flex-1 min-h-[2rem]"></div>
+
       <div className="flex items-center space-x-4">
         <img src={PSGLogo} alt="" className="invert h-28" />
         <div className="font-poppins text-white text-base lg:text-lg">
@@ -61,20 +65,20 @@ const Section1 = () => {
         </Marquee>
       </span>
       <br />
-      <div className="flex flex-row">
-      <p className="text-xl font-ubuntu flex space-x-2 items-center mt-6 bg-white text-dark-green px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit">
-        <FiCalendar size={24} />
-        <p>4th - 6th January 2023</p>
-      </p>
-      
-      <a
-        className="ml-10 text-xl font-ubuntu flex space-x-2 items-center mt-6 bg-turquoise text-slate font-bold px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit hover:bg-dark-green hover:text-white"
-        href="https://docs.google.com/forms/d/1Ha1zpTxoUpzalswTOfK5NH9tLqKxyCWEXQLBqdMrMnQ"
-        target="_blank"
-      >
-        <AiOutlineForm size={24} />
-        <p>Paper submission</p>
-      </a>
+      <div className="flex flex-row my-10">
+        <p className="text-xl font-ubuntu flex space-x-2 items-center mt-6 bg-white text-dark-green px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit">
+          <FiCalendar size={24} />
+          <p>4th - 6th January 2023</p>
+        </p>
+
+        <a
+          className="ml-10 text-xl font-ubuntu flex space-x-2 items-center mt-6 bg-turquoise text-slate font-bold px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit hover:bg-dark-green hover:text-white"
+          href="https://docs.google.com/forms/d/1Ha1zpTxoUpzalswTOfK5NH9tLqKxyCWEXQLBqdMrMnQ"
+          target="_blank"
+        >
+          <AiOutlineForm size={24} />
+          <p>Paper submission</p>
+        </a>
       </div>
     </section>
   );
