@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { FiMail, FiTrello, FiBookOpen } from "react-icons/fi";
+import { AiOutlineForm } from "react-icons/ai";
 
 const Section8 = () => {
   return (
@@ -21,6 +22,16 @@ const Section8 = () => {
             after the receipt of author registration will appear in full-length
             in the conference proceedings (CD format only).
           </p>
+          <div className="mt-12">
+            <a
+              className="font-bold text-2xl font-ubuntu flex space-x-2 items-center mt-4 bg-dark-green text-white px-6 py-2 rounded-lg shadow-lg w-fit hover:scale-[99%] transition-all ease-in-out"
+              href="https://docs.google.com/forms/d/1Ha1zpTxoUpzalswTOfK5NH9tLqKxyCWEXQLBqdMrMnQ"
+              target="_blank"
+            >
+              <AiOutlineForm size={32} />
+              <p>Paper submission</p>
+            </a>
+          </div>
           <div className="mt-12">
             For all communications use the e-mail address :
           </div>
