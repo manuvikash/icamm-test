@@ -6,10 +6,10 @@ const Section12 = () => {
     >
       <a
         className=" text-4xl px-3 py-6 rounded-[12px]"
-        // href="https://forms.gle/YzT7bAMaR9rX5xVb8"
-        // target="_blank"
+        href="https://forms.gle/YzT7bAMaR9rX5xVb8"
+        target="_blank"
       >
-        Registrations yet to open!
+        Click here to Register!
       </a>
     </section>
   );
