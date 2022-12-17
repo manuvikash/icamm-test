@@ -1,6 +1,7 @@
 import React from "react";
 import PSGCollegeLanding from "../assets/psg_landing.jpg";
 import PSGLogo from "../assets/PSG_logo.png";
+import DRDOLogo from "../assets/DRDO_logo.png";
 import Marquee from "react-fast-marquee";
 import { FiCalendar } from "react-icons/fi";
 import { AiOutlineForm } from "react-icons/ai";
@@ -25,8 +26,19 @@ const Section1 = () => {
         on Applied Mathematical Models
       </h2>
       <div className="flex-1 min-h-[2rem]"></div>
-      <div className="flex-1 min-h-[2rem]"></div>
-      <div className="flex-1 min-h-[2rem]"></div>
+
+      <div className="flex items-center space-x-4">
+        <img src={DRDOLogo} alt="" className=" h-28" />
+        <div className="font-poppins text-white text-base lg:text-lg">
+          <p className="">Sponsored By</p>
+          <p className="font-semibold">
+            Defence Research and Development Organisation,
+            <br />
+            Ministry of defence, Government of India
+          </p>
+        </div>
+      </div>
+
       <div className="flex-1 min-h-[2rem]"></div>
 
       <div className="flex items-center space-x-4">

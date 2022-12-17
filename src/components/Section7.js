@@ -11,6 +11,7 @@ import Radhakrishnan from "../assets/Radhakrishnan-Balu.jpg";
 import Swaminathan from "../assets/Swaminathan-Anbhu.jpg";
 import Arun from "../assets/Viswanathan-Arunachalam.jpg";
 import Vidyotama from "../assets/Vidyottama-Jain.png";
+import Tanmay from "../assets/Tanmay.jpg";
 
 const SpeakersList = [
   {
@@ -67,6 +68,11 @@ const SpeakersList = [
     name: "Prof. Vidyottama Jain",
     desc: "Central University of Rajasthan, India",
     image: Vidyotama,
+  },
+  {
+    name: "Prof. Tanmay Basak",
+    desc: "IIT Madras, India",
+    image: Tanmay,
   },
 ];
 
