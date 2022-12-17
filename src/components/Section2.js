@@ -30,7 +30,7 @@ const Section2 = () => {
           <DateContext
             className=""
             monthyear="December 2022"
-            date="15"
+            date="23"
             text="Camera Ready Paper"
           />
           <DateContext
