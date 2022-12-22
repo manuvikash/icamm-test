@@ -59,20 +59,22 @@ const Section1 = () => {
         </div>
       </div>
       <div className="flex-1 min-h-[2rem]"></div>
-      <div className="flex-1 min-h-[2rem]"></div>
-      <div className="flex items-center space-x-4">
-        <img src={SpringerLogo} alt="" className=" h-28" />
+      <div className="md:flex-1 md:min-h-[2rem] lg:flex-1 lg:min-h-[2rem]"></div>
+      <div className="flex flex-col md:flex-row lg:flex-row items-center space-x-4">
+        <div>
+          <img src={SpringerLogo} alt="" className=" h-28" />
+        </div>
         <div className="font-poppins text-white text-xl">
           <span className="font-bold text-navy">
             <a href="https://www.springer.com/journal/12597/" target="_blank">
-              Opsearch Special Issue,
+              Opsearch
             </a>
           </span>
-          <span>&nbsp;Published by Springer</span>
+          <span>&nbsp;-&nbsp;Published by Springer</span>
           <br />
           <span>
-            Has accepted to publish the high caliber papers from this
-            conference.
+            Has accepted to publish the high caliber papers in a special
+            edition.
           </span>
           <br />
           <br />
