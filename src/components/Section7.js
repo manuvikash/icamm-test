@@ -20,14 +20,14 @@ const SpeakersList = [
     image: ReinNobel,
   },
   {
-    name: "Prof.A.Krishnamoorthy",
-    desc: "Director, Center for Research in Mathematics,\n CMS College Kottayam, Kerala, India",
-    image: Krishnamoorthy,
-  },
-  {
     name: "Prof.S.Dharmaraja",
     desc: "IIT Delhi, India",
     image: Dharmaraja,
+  },
+  {
+    name: "Prof.A.Krishnamoorthy",
+    desc: "Director, Center for Research in Mathematics,\n CMS College Kottayam, Kerala, India",
+    image: Krishnamoorthy,
   },
   {
     name: "Prof. Satyananda Panda",

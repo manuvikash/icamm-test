@@ -13,7 +13,9 @@ module.exports = {
       green: "#49A078",
       "light-green": "#9cc5A1",
       "light-grey": "#F5F5F5",
-      turquoise: "#4fbf1f"
+      turquoise: "#4fbf1f",
+      orange: "#f36717",
+      navy: "#0d2850",
     },
     fontFamily: {
       ubuntu: ["Ubuntu", "sans-serif"],

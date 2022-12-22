@@ -2,6 +2,7 @@ import React from "react";
 import PSGCollegeLanding from "../assets/psg_landing.jpg";
 import PSGLogo from "../assets/PSG_logo.png";
 import DRDOLogo from "../assets/DRDO_logo.png";
+import SpringerLogo from "../assets/Springer_logo.png";
 import Marquee from "react-fast-marquee";
 import { FiCalendar } from "react-icons/fi";
 import { AiOutlineForm } from "react-icons/ai";
@@ -25,31 +26,60 @@ const Section1 = () => {
         Fifth International Conference <br />
         on Applied Mathematical Models
       </h2>
+      <div className="flex flex-row my-10">
+        <p className="text-xl font-ubuntu flex space-x-2 items-center mt-6 bg-dark-green text-white px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit">
+          <FiCalendar size={24} />
+          <p>4th - 6th January 2023</p>
+        </p>
+      </div>
       <div className="flex-1 min-h-[2rem]"></div>
-
-      <div className="flex items-center space-x-4">
-        <img src={DRDOLogo} alt="" className=" h-28" />
-        <div className="font-poppins text-white text-base lg:text-lg">
-          <p className="">Sponsored By</p>
-          <p className="font-semibold">
-            Defence Research and Development Organisation,
-            <br />
-            Ministry of defence, Government of India
-          </p>
+      <div className="flex flex-col lg:flex-row">
+        <div className="flex items-center space-x-4">
+          <img src={PSGLogo} alt="" className="invert h-28" />
+          <div className="font-poppins text-white text-base lg:text-lg">
+            <p className="">Conducted By</p>
+            <p className="font-semibold">
+              Department of Mathematics,
+              <br />
+              PSG College of technology
+            </p>
+          </div>
+        </div>
+        <div className="flex-1 min-h-[2rem]"></div>
+        <div className="flex items-center space-x-4">
+          <img src={DRDOLogo} alt="" className=" h-28" />
+          <div className="font-poppins text-white text-base lg:text-lg">
+            <p className="">Sponsored By</p>
+            <p className="font-semibold">
+              Defence Research and Development Organisation,
+              <br />
+              Ministry of defence, Government of India
+            </p>
+          </div>
         </div>
       </div>
-
       <div className="flex-1 min-h-[2rem]"></div>
-
+      <div className="flex-1 min-h-[2rem]"></div>
       <div className="flex items-center space-x-4">
-        <img src={PSGLogo} alt="" className="invert h-28" />
-        <div className="font-poppins text-white text-base lg:text-lg">
-          <p className="">Conducted By</p>
-          <p className="font-semibold">
-            Department of Mathematics,
-            <br />
-            PSG College of technology
-          </p>
+        <img src={SpringerLogo} alt="" className=" h-28" />
+        <div className="font-poppins text-white text-xl">
+          <span className="font-bold text-navy">
+            <a href="https://www.springer.com/journal/12597/" target="_blank">
+              Opsearch Special Issue,
+            </a>
+          </span>
+          <span>&nbsp;Published by Springer</span>
+          <br />
+          <span>
+            Has accepted to publish the high caliber papers from this
+            conference.
+          </span>
+          <br />
+          <br />
+          <span>Guest Editors -</span>
+          <span className="font-bold text-navy">
+            <a href="#section7">&nbsp;Prof. Dharmaraja & Prof. Rein Nobel</a>
+          </span>
         </div>
       </div>
       <span>
@@ -76,22 +106,6 @@ const Section1 = () => {
           </div>
         </Marquee>
       </span>
-      <br />
-      <div className="flex flex-row my-10">
-        <p className="text-xl font-ubuntu flex space-x-2 items-center mt-6 bg-white text-dark-green px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit">
-          <FiCalendar size={24} />
-          <p>4th - 6th January 2023</p>
-        </p>
-
-        <a
-          className="ml-10 text-xl font-ubuntu flex space-x-2 items-center mt-6 bg-turquoise text-slate font-bold px-4 lg:py-2 md:py-0 rounded-lg shadow-lg w-fit hover:bg-dark-green hover:text-white"
-          href="https://docs.google.com/forms/d/1Ha1zpTxoUpzalswTOfK5NH9tLqKxyCWEXQLBqdMrMnQ"
-          target="_blank"
-        >
-          <AiOutlineForm size={24} />
-          <p>Paper submission</p>
-        </a>
-      </div>
     </section>
   );
 };

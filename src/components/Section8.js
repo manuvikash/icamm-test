@@ -23,13 +23,9 @@ const Section8 = () => {
             in the conference proceedings (CD format only).
           </p>
           <div className="mt-12">
-            <a
-              className="font-bold text-2xl font-ubuntu flex space-x-2 items-center mt-4 bg-dark-green text-white px-6 py-2 rounded-lg shadow-lg w-fit hover:scale-[99%] transition-all ease-in-out"
-              href="https://docs.google.com/forms/d/1Ha1zpTxoUpzalswTOfK5NH9tLqKxyCWEXQLBqdMrMnQ"
-              target="_blank"
-            >
+            <a className="font-bold text-2xl font-ubuntu flex space-x-2 items-center mt-4 bg-dark-green text-white px-6 py-2 rounded-lg shadow-lg w-fit hover:scale-[99%] transition-all ease-in-out">
               <AiOutlineForm size={32} />
-              <p>Paper submission</p>
+              <p>Paper submission is now closed!</p>
             </a>
           </div>
           <div className="mt-12">
