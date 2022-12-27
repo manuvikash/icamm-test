@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/icamm-test/static/css/main.1b437663.css",
-    "main.js": "/icamm-test/static/js/main.b335b06d.js",
+    "main.css": "/icamm-test/static/css/main.c2b01bff.css",
+    "main.js": "/icamm-test/static/js/main.d39b5bb5.js",
     "static/js/787.6602bd0e.chunk.js": "/icamm-test/static/js/787.6602bd0e.chunk.js",
     "static/media/HOD_img.jpg": "/icamm-test/static/media/HOD_img.c67cb4899f1bbe80b01c.jpg",
     "static/media/Hugo_Leiva_1.jpg": "/icamm-test/static/media/Hugo_Leiva_1.bcd121d037161efb811c.jpg",
@@ -24,12 +24,12 @@
     "static/media/polka_dark.svg": "/icamm-test/static/media/polka_dark.c7de909cdae8e65774e1ed2262369437.svg",
     "static/media/polka_light.svg": "/icamm-test/static/media/polka_light.a4ace8a5bfb248ef0d09a580e84f5c7e.svg",
     "index.html": "/icamm-test/index.html",
-    "main.1b437663.css.map": "/icamm-test/static/css/main.1b437663.css.map",
-    "main.b335b06d.js.map": "/icamm-test/static/js/main.b335b06d.js.map",
+    "main.c2b01bff.css.map": "/icamm-test/static/css/main.c2b01bff.css.map",
+    "main.d39b5bb5.js.map": "/icamm-test/static/js/main.d39b5bb5.js.map",
     "787.6602bd0e.chunk.js.map": "/icamm-test/static/js/787.6602bd0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b437663.css",
-    "static/js/main.b335b06d.js"
+    "static/css/main.c2b01bff.css",
+    "static/js/main.d39b5bb5.js"
   ]
 }
