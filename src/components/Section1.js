@@ -10,7 +10,7 @@ import { AiOutlineForm } from "react-icons/ai";
 const Section1 = () => {
   return (
     <section
-      className="w-screen h-fit lg:h-[calc(100vh-2.5rem)] px-6 py-36 md:py-24 lg:px-[calc(100vw/12)] space-y-4 md:space-y-2 lg:flex lg:flex-col lg:"
+      className="md:min-h-[900px] w-screen h-fit lg:h-[calc(100vh-2.5rem)] px-6 py-36 md:py-24 lg:px-[calc(100vw/12)] space-y-4 md:space-y-2 lg:flex lg:flex-col lg:"
       style={{
         background: `linear-gradient(to right, rgba(33,104,105,0.7) 10%, rgba(73,160,120,0.7) 90%), url(${PSGCollegeLanding})`,
         backgroundSize: "cover",
