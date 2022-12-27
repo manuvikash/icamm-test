@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/icamm-test/static/css/main.1b437663.css",
+    "main.js": "/icamm-test/static/js/main.b335b06d.js",
+    "static/js/787.6602bd0e.chunk.js": "/icamm-test/static/js/787.6602bd0e.chunk.js",
+    "static/media/HOD_img.jpg": "/icamm-test/static/media/HOD_img.c67cb4899f1bbe80b01c.jpg",
+    "static/media/Hugo_Leiva_1.jpg": "/icamm-test/static/media/Hugo_Leiva_1.bcd121d037161efb811c.jpg",
+    "static/media/psg-tech.png": "/icamm-test/static/media/psg-tech.36d81b2c0d3b34f3ee4d.png",
+    "static/media/dharmar@SFO.png": "/icamm-test/static/media/dharmar@SFO.2b5d8ee57d6fc249b099.png",
+    "static/media/psg_landing.jpg": "/icamm-test/static/media/psg_landing.a06d87f7482ee260188a.jpg",
+    "static/media/Nobel.png": "/icamm-test/static/media/Nobel.dc311c34a9607bab6150.png",
+    "static/media/krishnamoorthy2.png": "/icamm-test/static/media/krishnamoorthy2.44ec351cae775357d3e5.png",
+    "static/media/DRDO_logo.png": "/icamm-test/static/media/DRDO_logo.0ddb0209f40e2e5655e4.png",
+    "static/media/satyananda.jpg": "/icamm-test/static/media/satyananda.af1266c693d4d74fc869.jpg",
+    "static/media/Springer_logo.png": "/icamm-test/static/media/Springer_logo.86a5f3cfb00e3d37f230.png",
+    "static/media/RUAS_VC1.jpg": "/icamm-test/static/media/RUAS_VC1.4a107aae0fa677c91f5a.jpg",
+    "static/media/Vidyottama-Jain.png": "/icamm-test/static/media/Vidyottama-Jain.39031c1a353ecd2dc6e9.png",
+    "static/media/Radhakrishnan-Balu.jpg": "/icamm-test/static/media/Radhakrishnan-Balu.edd51bdd77f4f1d13f4e.jpg",
+    "static/media/jitendra-kumar.jpg": "/icamm-test/static/media/jitendra-kumar.eda99f79a528e0e6d029.jpg",
+    "static/media/Viswanathan-Arunachalam.jpg": "/icamm-test/static/media/Viswanathan-Arunachalam.71177af38247559012f0.jpg",
+    "static/media/Swaminathan-Anbhu.jpg": "/icamm-test/static/media/Swaminathan-Anbhu.1f2a865d00073b844565.jpg",
+    "static/media/PSG_logo.png": "/icamm-test/static/media/PSG_logo.91e77536c98ac2d70b22.png",
+    "static/media/Tanmay.jpg": "/icamm-test/static/media/Tanmay.964edbcc7c85d6de2be0.jpg",
+    "static/media/polka_dark.svg": "/icamm-test/static/media/polka_dark.c7de909cdae8e65774e1ed2262369437.svg",
+    "static/media/polka_light.svg": "/icamm-test/static/media/polka_light.a4ace8a5bfb248ef0d09a580e84f5c7e.svg",
+    "index.html": "/icamm-test/index.html",
+    "main.1b437663.css.map": "/icamm-test/static/css/main.1b437663.css.map",
+    "main.b335b06d.js.map": "/icamm-test/static/js/main.b335b06d.js.map",
+    "787.6602bd0e.chunk.js.map": "/icamm-test/static/js/787.6602bd0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b437663.css",
+    "static/js/main.b335b06d.js"
+  ]
+}
